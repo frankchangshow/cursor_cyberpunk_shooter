@@ -22,6 +22,9 @@ build/
 .DS_Store
 Thumbs.db
 
-# Cursor specific (optional - you may want to commit .cursor/environment.json)
-# .cursor/
+# Cursor specific
+# Allow .cursor/environment.json (required for background agents)
+# Ignore other cursor-specific files
+.cursor/*
+!.cursor/environment.json
 
